@@ -1,0 +1,5 @@
+<div class="center border">
+    <p class="">{{model.name}}</p>
+    <p><button class="btn h3 border white bg-gray p2 mr2 col-3">{{link-to "Edit name" "articles.edit" model class="white"}}</button></p>
+    <p><button {{action "delete" model}} class="btn h3 border white bg-red p2 mr2 col-3">Delete article</button></p>
+</div>
